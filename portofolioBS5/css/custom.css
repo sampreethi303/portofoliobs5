@@ -1,0 +1,49 @@
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #18bc9c;
+}
+
+body {
+  padding-top: 56px;
+}
+
+section {
+  padding: 60px 0;
+}
+
+#home {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+              url('../images/hero-bg.jpg') center/cover;
+  color: white;
+}
+
+.navbar {
+  background-color: var(--primary-color) !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: var(--secondary-color) !important;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.btn-primary {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.btn-primary:hover {
+  background-color: #13987d;
+  border-color: #13987d;
+}
